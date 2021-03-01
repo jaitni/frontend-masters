@@ -1,0 +1,36 @@
+.ex-container{
+    display: flex;  
+}
+.ex1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(./ex1.png);
+    background-size: contain;
+}
+
+.ex1:hover{
+    background-image: url(./ex1-hover.png);
+}
+
+.ex2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(./ex2.png);
+    background-size: contain;
+}
+
+.ex2:hover{
+    background-image: url(./ex2-hover.png);
+}
+
+.ex-desc{
+    text-align: center;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
