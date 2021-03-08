@@ -34,6 +34,17 @@
     background-image: url(./ex3-hover.png);
 }
 
+.ex4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(./ex4.png);
+    background-size: contain;
+}
+
+.ex4:hover{
+    background-image: url(./ex4-hover.png);
+}
+
 .ex-desc{
     text-align: center;
 }
