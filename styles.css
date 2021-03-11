@@ -1,58 +1,48 @@
+body{
+    background-color: #000000;
+}
+
 .ex-container{
     display: flex;  
-}
-.ex1 {
-    width: 150px;
-    height: 150px;
-    background-image: url(./ex1.png);
-    background-size: contain;
+    position: absolute;
+    top: 25%;
 }
 
-.ex1:hover{
-    background-image: url(./ex1-hover.png);
+.ex{
+    position: relative;
+    width: 25%;
 }
 
-.ex2 {
-    width: 150px;
-    height: 150px;
-    background-image: url(./ex2.png);
-    background-size: contain;
+.ex:hover .overlay {
+    opacity: 0;
+  }
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.ex2:hover{
-    background-image: url(./ex2-hover.png);
-}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    transition: .5s ease;
+    background-color: #000000;
+  }
 
-.ex3 {
-    width: 150px;
-    height: 150px;
-    background-image: url(./ex3.png);
-    background-size: contain;
-}
-
-.ex3:hover{
-    background-image: url(./ex3-hover.png);
-}
-
-.ex4 {
-    width: 150px;
-    height: 150px;
-    background-image: url(./ex4.png);
-    background-size: contain;
-}
-
-.ex4:hover{
-    background-image: url(./ex4-hover.png);
-}
-
-.ex-desc{
+  .text {
+    color: rgb(207, 202, 202);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-}
-
-figcaption {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    padding: 2px;
-    text-align: center;
-}
